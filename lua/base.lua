@@ -1,0 +1,31 @@
+local o = vim.o
+local g = vim.g
+local opt = vim.opt
+
+o.termguicolors = true
+
+o.scrolloff = 0
+o.number = true
+o.numberwidth = 2
+o.relativenumber = true
+-- o.cursorline = true
+o.expandtab = true
+o.smarttab = true
+o.cindent = true
+o.autoindent = true
+o.wrap = true
+o.textwidth = 80
+o.tabstop = 4
+o.shiftwidth = 4
+o.softtabstop = -1
+o.clipboard = "unnamedplus"
+o.ignorecase = true
+o.smartcase = true
+o.backup = false
+o.writebackup = false
+o.undofile = true
+o.swapfile = false
+o.history = 50
+o.splitright = true
+o.splitbelow = true
+opt.mouse = "a"
